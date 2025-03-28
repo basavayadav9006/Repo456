@@ -4,7 +4,7 @@ LABEL name=NginxUbuntu
 
 RUN apt update -y && apt-get install -y git nginx nano
 
-RUN /usr/bin/git clone https://github.com/basavayadav9006/Repo111.git /var/www/html2
+RUN /usr/bin/git clone https://github.com/basavayadav9006/repo123.git /var/www/html2
 
 RUN cd /var/www/html2/
 
